@@ -38,7 +38,7 @@ class linked_List():
 
     def get_node(self, index):
         if (index > self.node_count or index < 0):
-            print('Erro: index')
+            print('Erro: index inválido')
             return None
         
         cur_index = 0
@@ -52,7 +52,7 @@ class linked_List():
 
     def delete_node(self, index):
         if (index > self.node_count):
-            print('Erro: index')
+            print('Erro: index inválido')
             return None
 
         cur_index = 0
